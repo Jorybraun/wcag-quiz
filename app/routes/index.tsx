@@ -85,8 +85,8 @@ export default function Index() {
         }) }
         </div>
 
-        <div>
-            { showCorrect && <button onClick={nextQuestion}>next question</button>}
+        <div style={{ padding: '1%' }}>
+            { showCorrect && <button style={{ padding: '24px', fontSize: '20px'}} onClick={nextQuestion}>next question</button>}
         </div>
 
       </div>
