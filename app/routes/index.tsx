@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import json from '../../../wcag-file.json'
+import json from '../../wcag-file.json'
 
 interface WcagObject {
     criterion: string; 
